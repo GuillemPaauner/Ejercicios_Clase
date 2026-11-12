@@ -337,10 +337,3 @@ El número de movimientos satisface `M(n) = 2 · M(n − 1) + 1`, con `M(1) = 1`
 
 Para 64 discos serían `18 446 744 073 709 551 615` movimientos. El programa imprime todos los movimientos, de modo que conviene probarlo con cantidades pequeñas de discos. La profundidad de recursión es proporcional a `n`, mientras que el tiempo y la cantidad de líneas crecen como `2^n`.
 
-## Comprobaciones realizadas
-
-Los doce programas se han compilado con GCC en C++17, con `-Wall -Wextra -Wpedantic`, sin avisos. Se han comprobado factoriales hasta 1000!, las series, la recuperación de originales cifrados, el producto de impares, las tarifas y sus fracciones de hora, la inversión de cifras y su desbordamiento, los intervalos aleatorios, los 100 lanzamientos de moneda, las 200 000 filas de π y los movimientos legales de Hanói para entre 1 y 8 discos. También se han probado entradas fuera del dominio de los ejercicios.
-
-## Entrega
-
-El dosier solicita entregar un enlace de GitHub que contenga los códigos. Los doce archivos C++ y este documento están preparados para subirlos a un repositorio; cada archivo se ejecuta de forma independiente.
